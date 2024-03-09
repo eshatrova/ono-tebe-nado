@@ -177,14 +177,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 51px 40px 48px;
-    position: relative;
-    
+    position: relative; 
 }
-
-.card_contain {
-    
-}
-
 
 .card__title {
     color: #FFF;
@@ -208,12 +202,9 @@
     z-index: 1;
 }
 
-
 .film {
     background: url(../images/card-lot-01.jpg) center no-repeat;
     background-size: cover;
-    
-    
 }
 
 .book {
@@ -231,9 +222,6 @@
     font-size: 20px;
 }
 
-    
-
-/*Нижний блок */
 .about {
     display: flex;
     padding: 35px 0px 0px 47px ;
@@ -286,7 +274,7 @@
     letter-spacing: 0.4px;
 }
 
-/*Нижний блок */
+
 .footer {
     padding: 180px 50px 88px;
     display: flex;
@@ -295,14 +283,14 @@
 }
 
 .footer_menu {
- display: flex;
- flex-direction: column;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__social-list {
-display: flex;
-gap:48px;
+    display: flex;
+    gap:48px;
 }
 
 .footer__social-icon {
