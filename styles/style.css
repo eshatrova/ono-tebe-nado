@@ -260,9 +260,11 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    color: #000;
 }
 
 .about__text { 
+    color: #000;
     display: flex;
     flex-direction: column;
     margin-top: 100px ;
