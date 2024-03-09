@@ -14,9 +14,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 92px 24px 96px 24px ;
-    
-    
 }
+
 .header__menu {
     display: flex;
     flex-direction: row;
@@ -27,11 +26,6 @@
 .header__logo { 
     width: 138px;
     height: 105px;
-    
-}
-
-.header__logo-image {
-    
 }
 
 .header__links-list-item_no-bullit {
@@ -70,6 +64,7 @@
     height: 100%;
     background-color: rgba(0,0,0,0.6);
     z-index: 0;
+    inset: 0;
     
 }
 /*Все что относится к записи "Оно тебе надо"*/
@@ -148,9 +143,8 @@
 .lots {
     display: flex;
     flex-direction: column;
-    width: 1052px;
-    height: 692px;
-    padding: 179px 24px 146px;
+    position: relative;
+    padding: 180px 24px 0px;
 }
 
 .lots__heading {
@@ -158,32 +152,39 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;  
-    padding: 0px 891px 27px 40px ; 
+    padding: 0px 0px 27px 40px; 
 }
 
 .lots__card-list {
     display: flex;
     flex-direction: row;
-    gap: 25px;
-}
-
-.list_style {
+    column-gap: 25px;
     list-style: none;
 }
 
-.card {
-    display: flex;
-    height: 563px;
+.lots__card-list-item {
     width: 334px;
+    height: 563px;
+}
+
+.card-link {
 
 }
 
-.card_contain {
-    padding: 51px 40px 48px;
+.card {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 51px 40px 48px;
+    position: relative;
+    
 }
+
+.card_contain {
+    
+}
+
 
 .card__title {
     color: #FFF;
@@ -194,6 +195,7 @@
     text-decoration-line: underline;
     text-transform: uppercase;
     letter-spacing: normal;
+    z-index: 1;
 }
 
 .card__text {
@@ -203,28 +205,25 @@
     font-weight: 400;
     line-height: 120%; /* 24px */
     letter-spacing: normal;
+    z-index: 1;
 }
 
 
-.card_type_film {
+.film {
     background: url(../images/card-lot-01.jpg) center no-repeat;
-    position: relative;
     background-size: cover;
-    z-index: -1;
+    
+    
 }
 
-.card_type_book {
+.book {
     background: url(../images/card-lot-02.jpg) center no-repeat;
-    position: relative;
     background-size: cover;
-    z-index: -1;
 }
 
-.card_type_picture {
-    position: relative;
-    background-size: cover;
-    z-index: -1;
+.picture {
     background: url(../images/card-lot-03.jpg) center no-repeat;
+    background-size: cover;
 }
 
 
