@@ -7,7 +7,7 @@
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
+  grid-template-columns: 1.03fr 148px 1fr;
   align-items: center;
   justify-content: center;
   gap: 36px;
@@ -36,21 +36,23 @@
 }
 
 .address {
- 
-}
-
-.header__address {
-    font-style: normal;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
+  font-style: normal;
   text-decoration: none;
-}
-.footer__address {
-  padding: 4px 62px 0px 0px;
   align-items: start;
   display: flex;
   flex-direction: column;
+}
+
+.header__address {
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: 48px;
+  margin-top: 7px;
+}
+.footer__address {
+  padding: 4px 62px 0px 0px;
+  max-width: 270px;
+  
 }
 
 .cover {
