@@ -52,7 +52,6 @@
 .footer__address {
   padding: 4px 62px 0px 0px;
   max-width: 270px;
-  
 }
 
 .cover {
@@ -76,28 +75,32 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 165px 50px 135px;
+  padding: 178px 50px 135px;
   gap: 20px;
 }
 
 .cover_text {
   color: #fff;
-  display: flex;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 30px;
-  line-height: 115%; /* 115px */
+  line-height: 100%;
+  display: flex;
+}
+
+.aligned-text {
+  align-self: start;
+  line-height: 115%;
+  font-size: 100px;
 }
 
 .aligned-text_center {
   align-self: center;
-  line-height: 100%;
 }
 
 .aligned-text_right {
-  line-height: 100%;
   align-self: self-end;
 }
 
@@ -123,11 +126,10 @@
   font-weight: 400;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
-  
 }
 
 .cover__description-text-word-spacing {
-    word-spacing: 1.114rem;
+  word-spacing: 1.114rem;
 }
 
 .button {
@@ -168,7 +170,7 @@
 }
 
 .card_link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card {
